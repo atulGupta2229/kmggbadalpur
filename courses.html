@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Courses Offered</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="icon" type="icon" href="favicon.jpg">
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			$(window).scroll(function(){
+				if($(window).width()>480){
+				if(this.pageYOffset>=160){
+					$("#nav").attr("style","height:60px; background: rgba(63,81,181, 1);");
+					$("#heading").attr("style","margin-top: 15px;");
+					$("li").attr("style","padding: 18px 9px 21px 9px;");
+				}
+				if(this.pageYOffset<160){
+					$("#nav").attr("style","height:80px");
+					$("#heading").attr("style","margin-top: 22px;");
+					$("li").attr("style","padding: 25px 9px 35px 9px;");
+				}
+			}
+			});
+
+			$(".res-menu-btn").click(function(){
+				$(".res-menu").attr("style","height:100%")
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12" id="nav">
+			<div id="heading">
+				<span class="hd">KM. MAYAWATI GOVERNMENT GIRLS POLYTECHNIC</span>
+			</div>
+			<div class="res-menu-btn">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+			<div class="menu">
+				<ul>
+					
+					<a href="index.html">
+						<li class="menu-tab">
+						<i class="fa fa-home" aria-hidden="true"></i> Home
+					</li>
+					</a>
+					<a href="aboutus.html">
+					<li class="menu-tab">
+						<i class="fa fa-question-circle" aria-hidden="true"></i> about us
+					</li>
+					</a>
+					<li class="menu-tab">
+						<i class="fa fa-wrench" aria-hidden="true"></i> facilities
+					</li>
+					<a href="courses.html">
+					<li class="menu-tab">
+						<i class="fa fa-graduation-cap" aria-hidden="true"></i> courses
+					</li>
+					</a>
+					<a href="gallery.html">
+						<li class="menu-tab">
+						<i class="fa fa-picture-o" aria-hidden="true"></i> gallery
+					</li class="menu-tab">
+					</a>
+					
+					<a href="staff.html">
+						<li class="menu-tab">
+						<i class="fa fa-users" aria-hidden="true"></i> staff members
+					</li>
+					</a>
+					<a href="contactus.html">
+						<li class="menu-tab">
+						<i class="fa fa-phone" aria-hidden="true"></i> contact us
+					</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row res-menu">
+		<div class="col-sm-12">
+			<ul>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+				<li class="res-menu-tab">
+					Home
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+	<div class="row">
+		<div class="col-sm-12 courses-body">
+			<div class="row">
+			<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<div class="abt-box">
+						<center>
+					<span class="h3 news-head" style="background: #FFEB3B;">Computer Science & Engineering</span>
+				</center>
+				<center>
+					<img src="assets/images/computerScience.png" width="130px" style="margin-top: 8%;margin-bottom: 8%">
+					<div class="crs">
+						<span >
+							<b>Shift:</b> 1<sup>st</sup> | <b>Intake:</b> 60
+						</span>
+					</div><br><br>
+
+				</center>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<div class="abt-box">
+						<center>
+					<span class="h3 news-head" style="background: #2196F3;">Information Technology</span>
+				</center>
+				<center>
+					<img src="assets/images/it.png" width="130px" style="margin-top: 8%;margin-bottom: 8%">
+					<div class="crs">
+						<span >
+							<b>Shift:</b> 1<sup>st</sup> | <b>Intake:</b> 60
+						</span>
+					</div><br><br>
+
+				</center>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<div class="abt-box">
+						<center>
+					<span class="h3 news-head" style="background: #FF9800;">Electronics Engineering</span>
+				</center>
+				<center>
+					<img src="assets/images/electronics.png" width="130px" style="margin-top: 8%;margin-bottom: 8%">
+					<div class="crs">
+						<span >
+							<b>Shift:</b> 1<sup>st</sup> | <b>Intake:</b> 60
+						</span>
+					</div><br><br>
+
+				</center>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="row find-us">
+		<div class="col-sm-12">
+			<div class="col-sm-4" style="padding-top: 30px;">
+				<span class="h4" style="font-weight: bold;">KM. MAYAWATI GOVERNMENT GIRLS POLYTECHNIC</span><br><br>
+				<p>
+					SADOPUR KI JHAL, BADALPUR<br>
+					GAUTAM BUDDHA NAGAR,<br>
+					UTTAR PRADESH-203207<br>
+					<b>LANDMARK:</b> AIRFORCE STATION, DADRI (UP)<br>
+					<b>EMAIL:</b> ggpbad@gmail.com<br>
+					<b>PHONE NO:</b> 0120-2673540
+				</p>
+			</div>
+			<div class="col-sm-4" style="padding-top: 40px;padding-left: 30px;font-size: 15px;text-align: center;">
+				<span>Home</span><br>
+				<span>About Us</span><br>
+				<span>Facilities</span><br>
+				<span>Courses</span><br>
+				<span>Gallery</span><br>
+				<span>Staff Members</span><br>
+				<span>Contact Us</span>
+			</div>
+			<div class="col-sm-4" style="padding-top: 30px;">
+				<span class="h4">Follow us:</span><br><br>
+				<span class="social-icon">
+					<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+				</span>
+				<span class="social-icon">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+				</span>
+				<span class="social-icon">
+					<i class="fa fa-twitter-square" aria-hidden="true"></i>
+				</span>
+				<span class="social-icon">
+					<i class="fa fa-whatsapp" aria-hidden="true"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="row ftr">
+		<div class="col-sm-12" style="padding-top: 5px;">
+		<center>
+			<span class="h5">&copy;Softpro India Computer Technologies Pvt. Ltd.</span>
+		</center>
+		</div>
+	</div>
+</div>
+</body>
+</html>

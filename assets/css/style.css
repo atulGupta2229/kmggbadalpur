@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+#nav{
+	height: 80px;
+	width: 100%;
+	background: rgba(63,81,181, 1);
+	position: fixed;
+	z-index: 999;
+	transition: 0.5s;
+}
+#heading{
+	float: left;
+	margin-left: 20px;
+	margin-top: 22px;
+	transition: 0.5s;
+}
+.hd{
+	
+	font-size: 15px;
+	color: white;
+}
+.banner{
+	margin-top: 0px;
+	background: url(../images/college.png);
+	background-size:100% 100%;
+	min-height: 505px;
+	padding-top: 130px;
+}
+.menu{
+	float: right;
+}
+ul{
+	list-style: none;
+}
+ul .menu-tab{
+	cursor: default;
+	display: inline-block;
+	margin-left: -1.9px;
+	margin-right: -1.9px;
+	padding: 25px 9px 35px 9px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	transition: 0.4s;
+}
+li:hover{
+	background: #FFEB3B;
+	color: #333;
+}
+.banner-text{
+	
+	font-size: 47px;
+	color: white;
+	text-shadow: 2px 2px 8px #333;
+}
+.trades{
+	min-height: 300px;
+	background: #FFEB3B;
+}
+.trades-icons{
+	
+	min-height: 240px;
+	margin-top: 8%;
+	padding-top: 8%;
+	margin-bottom: 8%; 
+	background: #fff;
+}
+.trades-text{
+		
+}
+.msg{
+	min-height: 500px;
+	background: #3F51B5;
+	background-size: cover;
+}
+#prin{
+	margin-top: 70px;
+}
+.pr-txt{
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 8px #333;
+		
+}
+.msg-box{
+	min-height: 400px;
+	margin-top: 50px;
+	background: rgba(0,0,0,0.6);
+	padding: 20px;
+	text-align: justify;
+	color: white;
+	font-size: 13px;
+}
+.who-we-are{
+	min-height: 200px;
+	background: #fff;
+	padding-top: 40px;
+}
+.who-we-are p{
+	color: #333;
+	font-size: 15px;
+}
+.b1{
+	margin-top: 30px;
+	background: #FFEB3B;
+	border-color: #333;
+	height: 40px;
+	color: #333;
+}
+.find-us{
+	min-height: 250px;
+	background: rgba(0,0,0,0.7);
+	background-size: cover;
+	color: white;
+}
+.find-us p{
+	font-size: 13px;
+
+}
+.ftr{
+	min-height: 30px;
+	background: #FFEB3B;
+}
+.social-icon i{
+	font-size: 30px;
+	padding: 5px; 
+}
+.news-noti{
+	min-height: 300px;
+}
+.crd{
+	padding-top: 15px;
+	height: 350px;
+	width: 90%;
+	margin: 25px;
+	background: rgba(0,0,0,0.8);
+}
+.news-head{
+	color: white;
+	padding: 25px;
+}
+.headline{
+	font-size: 13px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.headline a{
+	text-decoration: none;
+	color: white;
+}
+.res-menu-btn{
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	margin-top: 15px;
+	color: white;
+	display: none;
+	float: right;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	padding: 3px;
+	border-radius: 5px 5px 5px 5px;
+}
+.res-menu{
+	height: 0px;
+	overflow: hidden;
+	margin-top: 80px;
+	margin-left: -60px;
+	background: rgba(63,81,181, 1);
+	transition:  height 0.5s;
+}
+ul .res-menu-tab{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+@media screen and (max-width: 480px){
+	.menu{
+		display: none;
+	}
+	#heading{
+		margin-left: 5px;
+		margin-top: 10px;
+		float: left;
+	}
+	.res-menu-btn{
+		display: block;
+		margin-left: 40px;
+	}
+	.hd{
+		font-size: 18px;
+	}
+	.msg-box{
+		min-height: 680px;
+		margin-bottom: 50px;
+	}
+	.headline{
+		font-size: 13px;
+	}
+
+}
+.abt-body{
+	min-height: 500px;
+	background: url(../images/banner.jpg);
+	background-attachment: fixed;
+}
+.abt-box{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 100px;
+	background: rgba(0,0,0,0.8);
+}
+.abt-box p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	text-align: justify;
+	font-size: 15px;
+	padding: 20px;
+}
+.contact-body{
+	min-height: 400px;
+	background: white;
+}
+.contact-form{
+	min-height: 400px;
+	margin:30px;
+	padding: 20px;
+}
+.inp{
+	margin: 10px 0px 10px 0px;
+	background: transparent;
+	border-color: #888;
+	outline: none;
+}
+.bt{
+	width: 49.6%;
+	border:none;
+}
+.icn i{
+	font-size: 25px;
+}
+.courses-body{
+	min-height: 500px;
+}
+.crs{
+	height: 50px;
+	width: 300px;
+	background: white;
+	padding-top: 12px;
+	font-size: 18px;
+}
+.staff-body{
+	min-height: 500px;
+}
